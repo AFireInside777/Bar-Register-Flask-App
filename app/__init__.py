@@ -30,6 +30,7 @@ def serve():
 
 @app.route('/<path:path>')
 def serve_files(path):
+    print(path)
     return send_from_directory(app.static_folder, path)
 
 @app.errorhandler(404)
