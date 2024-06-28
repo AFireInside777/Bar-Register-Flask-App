@@ -31,3 +31,7 @@ def serve():
 @app.route('/<path:path>')
 def serve_files(path):
     return send_from_directory(app.static_folder, path)
+
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("index.html")
