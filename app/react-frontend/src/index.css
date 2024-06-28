@@ -1,0 +1,380 @@
+@font-face {
+  font-family: 'Constantia Regular';
+  src: url('../src/assets/fonts/constan.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Constantia Regular';
+  background-color: antiquewhite;
+}
+
+p {
+  font-family: 'Constantia Regular';
+}
+
+#dashboarddiv {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px
+}
+
+#placeOrder {
+  width: 35%;
+  height: 90%;
+  border: 2px;
+  border-color: rgb(126, 49, 13);
+  border-style: solid;
+  border-radius: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 0, 12);
+  overflow: hidden;
+}
+
+#infoButton {
+  display: flex;
+  justify-content: center;
+  width: 99.1%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#addneworder {
+  height: 99.1%;
+  width: 99.9%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: rgb(7, 0, 12);
+  padding: 1px;
+}
+
+.newOrderdiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 99%;
+}
+
+#orderNum {
+  border-top-left-radius: 25px;
+  text-align: center;
+  color: antiquewhite
+}
+
+#orderDate {
+  border-top-right-radius: 25px;
+  text-align: center;
+  color: antiquewhite
+}
+
+#drinklist{
+  height: 65%;
+}
+
+#completeOrder {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.orderButtons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#paymentDiv {
+  width: 99.1%;
+  height: 45%;
+  border-color: blue;
+  border-style: solid;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+
+#outlined-basic {
+  height: 29px;
+  width: 60%;
+}
+
+#payButtons {
+  border: 2px;
+  border-color: blue;
+  border-style: solid;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+#paymentBox {
+  display: flex;
+  flex-direction: column;
+  height: 91%
+}
+
+.OrderButtons {
+  width: 50%;
+}
+
+#modalCase {
+  border: 2px;
+  border-color: blue;
+  border-style: solid;
+  width: 20%
+}
+
+#drinkMenuBox {
+  width: 35%;
+  height: 90%;
+  border: 2px;
+  border-color: rgb(126, 49, 13);
+  border-style: solid;
+  border-radius: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 0, 12);
+  overflow: hidden;
+}
+
+#dmtitle {
+  width: 99.4%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#titletext {
+  width: 99.5%
+}
+
+#drinksList {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.accordion {
+  height: 5px;
+  padding-left: 20px;
+}
+
+#addButton {
+  width: 100%;
+
+}
+
+#drinkinfo {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#listitems{
+  height: 10%;
+  border: 1px;
+  border-color: rgb(126, 49, 13);
+  border-style: solid;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+  background-color: antiquewhite;
+}
+
+.listitem{
+  margin-top: 5px;
+  color: black;
+  overflow: hidden;
+  height: 90%
+}
+
+.qtybuttons {
+  width: 1%;
+}
+
+#drinkname {
+  width: 99px;
+}
+
+#drinkQty {
+  width: 65px
+}
+
+#alreadyModal{
+  width: 300px;
+  height: 200px;
+  border: 2px;
+  border-color: rgb(126, 49, 13);
+  background-color: antiquewhite;
+  border-style: solid;
+  border-radius: 25px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#modalText {
+  height: max-content;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.completeOrd {
+  flex-direction: column;
+  width: 99.9%;
+  height: 99%;
+  display: flex;
+  color: white
+}
+
+#completeOrd2 {
+  flex-direction: row;
+  width: 99.9%;
+  height: 50%;
+  display: flex;
+  color: white
+}
+.newPstyles {
+  width: 50%;
+  margin-top: 12px;
+  text-align: center
+}
+
+#ordersPage {
+  height: 90vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  overflow-y: hidden;
+}
+
+#ordersTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 7%;
+  overflow-y: hidden;
+}
+
+#ordersList{
+  height: 93%;
+  display: flex;
+  align-content: space-evenly;
+  padding: 10px;
+  padding-left: 9%;
+  gap: 45px;
+  flex-flow: wrap;
+  overflow-y: auto;
+}
+
+.ordersCard {
+  border: 1px;
+  border-color: rgb(126, 49, 13);
+  border-style: solid;
+  border-radius: 15px;
+  height: 250px;
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+}
+
+#orderDateNum{
+  width: 99.1%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+}
+
+#date, #ordernum {
+  width: 50%;
+  height: 99.9%;
+  text-align: center;
+}
+
+#date{
+  border-top-left-radius: 15px;
+}
+
+#ordernum {
+  border-top-right-radius: 15px;
+}
+
+.ODN {
+  margin-top: 1px;
+}
+
+.ODN2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#ordersList2 {
+  height: 70%;
+  overflow-y: scroll;
+}
+
+#finalInfoButtons {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#finalOrder {
+  width: 99%;
+  height: 50%;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.ODN3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#homePage {
+  height: 65vh;
+  background: linear-gradient(0.10turn, rgb(126, 49, 13), antiquewhite);
+  text-align: center;
+  padding-top: 15%;
+  
+
+  /*padding-left: 40% */
+}
+
+#loginModal {
+  height: 340px;
+  width:  300px;
+  border: solid 1px antiquewhite;
+  margin: auto;
+  BORDER-RADIUS: 25PX;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
