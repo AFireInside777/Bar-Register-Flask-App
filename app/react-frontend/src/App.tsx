@@ -147,7 +147,7 @@ function App() {
   {
     return(
       <div style={{"display":"flex", "justifyContent": "center"}}>
-        <p style={pstyles} onClick={()=>logout(localStorage.getItem('currentuser'))}>Log Out</p>
+       <Link to="/"><p style={pstyles} onClick={()=>logout(localStorage.getItem('currentuser'))}>Log Out</p></Link>
       </div>
   )}
 
